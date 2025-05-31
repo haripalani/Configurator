@@ -36,24 +36,71 @@
                             <img src="./Assets/parts/OMNIUS KUSSEN ACHTERKANT.webp" alt="Kussen Achterkant"
                                 class="product-set-image" data-set-id="7">
                         </div>
-
                     </div>
                 </div>
 
-                <!-- Options Column -->
-                <div class="options-column">
+                <!-- ✅ NEW: Mobile Bottom Container (wraps options and selection columns) -->
+                <div class="mobile-bottom-container">
+                    <!-- Options Column -->
+                    <div class="options-column">
+                        <!-- Dynamic options will be populated by JavaScript -->
+                        
+                        <!-- Responsive upward dropdown (hidden now) -->
+                        <div class="responsive-selection-dropdown" id="responsive-dropdown">
+                            <div class="selection-title" id="responsive-selection-heading">Select Option</div>
+                            <div id="responsive-selection-content">
+                                <!-- Dynamic content will be inserted here -->
+                            </div>
+                        </div>
 
-                </div>
-                <div class="selection-column"></div>
-                <div id="haakband-options" class="option-panel" style="display: block;">
-                    <div class="fixed-selection">Vaste optie: 225 CM</div>
-                </div>
+                        <!-- Horizontal scrolling options (hidden now) -->
+                        <div class="options-scroll-container">
+                            <!-- Same option items as above -->
+                        </div>
+                    </div>
 
+                    <!-- Desktop Selection Column -->
+                    <div class="selection-column">
+                        <div class="selection-title" id="selection-heading">Select an Option</div>
+
+                        <!-- Fixed haakband option -->
+                        <div id="haakband-options" class="option-panel" style="display: none;">
+                            <div class="fixed-selection">Vaste optie: 225 CM</div>
+                        </div>
+
+                        <!-- Other option panels will be dynamically created -->
+                    </div>
+                </div>
+                
             </div>
         </div>
 
         <!-- Container 3 - Price and Cart Section -->
         <div class="container-footer">
+            <div class="price-cart-section">
+                <div class="price-info">
+                    <div class="product-price">€449,00</div>
+                    <div class="price-details">
+                        <div class="old-price">€493,00</div>
+                        <div class="tax-note">excl. BTW</div>
+                    </div>
+                </div>
+
+                <div class="delivery-info">
+                    <div class="delivery-info-icon">✓</div>
+                    <div>Levertijd: 6 weken</div>
+                </div>
+
+                <div class="cart-controls">
+                    <div class="quantity-controls">
+                        <button class="qty-btn" id="decrease-qty">-</button>
+                        <div class="qty-display" id="qty-value">1</div>
+                        <button class="qty-btn" id="increase-qty">+</button>
+                    </div>
+
+                    <button class="add-to-cart-btn">IN WINKELWAGEN</button>
+                </div>
+            </div>
         </div>
     </div>
 
