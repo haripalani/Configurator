@@ -1,0 +1,72 @@
+2025-05-31 08:29:34 - Request received:
+Array
+(
+    [id] => 5
+    [options] => 00-00-00-00-00-00-00-00
+    [view] => Front
+    [size] => size
+)
+2025-05-31 08:29:34 - Found file: C:\xampp\htdocs\TLC-Configurator/Assets/Front/p0/5.png
+2025-05-31 08:29:37 - Request received:
+Array
+(
+    [id] => 7
+    [options] => 00-00-00-00-00-00-00-00
+    [view] => Front
+    [size] => size
+)
+2025-05-31 08:29:37 - Found file: C:\xampp\htdocs\TLC-Configurator/Assets/Front/p0/7.png
+2025-05-31 08:29:41 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 00-00-00-00-00-00-00-00
+    [view] => Front
+    [size] => size
+)
+2025-05-31 08:29:41 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Front/p0/2.png
+2025-05-31 08:29:45 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 04-00-00-00-00-00-00-00
+    [view] => Front
+    [size] => size
+)
+2025-05-31 08:29:45 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Front/p0/2.png
+2025-05-31 08:29:48 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 04-00-00-00-00-00-00-00
+    [view] => Side
+    [size] => size
+)
+2025-05-31 08:29:48 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Side/p0/2.png
+2025-05-31 08:29:48 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 04-00-00-00-00-00-00-00
+    [view] => Back
+    [size] => size
+)
+2025-05-31 08:29:48 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Back/p0/2.png
+2025-05-31 08:29:50 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 04-00-00-00-00-00-00-00
+    [view] => Side
+    [size] => size
+)
+2025-05-31 08:29:50 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Side/p0/2.png
+2025-05-31 08:29:50 - Request received:
+Array
+(
+    [id] => 2
+    [options] => 04-00-00-00-00-00-00-00
+    [view] => Front
+    [size] => size
+)
+2025-05-31 08:29:50 - Missing file: C:\xampp\htdocs\TLC-Configurator/Assets/Front/p0/2.png

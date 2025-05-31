@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curtain Configurator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Container 1 - Title and Description -->
+        <div class="container-header">
+            <h1 class="product-heading">OMNIUS - PREMIUM SET GORDIJNEN COMPLEET</h1>
+            <p class="product-description">Upgrade je interieur met deze complete luxe gordijnset, inclusief
+                zijgordijnen, voorraamband, 3-bogen booggordijn en kussen.</p>
+        </div>
+
+        <!-- Container 2 - Configurator -->
+        <div class="configurator-container">
+            <div class="container">
+                <!-- Product Preview Column -->
+                <div class="product-preview">
+                    <div class="preview-image">
+                        <button class="rotation-button left" id="rotate-left">&#10094;</button>
+                        <img src="" alt="Omnius Premium Gordijnen" id="preview-main-image">
+                        <button class="rotation-button right" id="rotate-right">&#10095;</button>
+                    </div>
+                    <div class="preview-title" id="product-title" style="display: none;">
+                        <div>
+                            <img src="./Assets/parts/OMNIUS KLEUR BOOGGORDIJN.webp" alt="Booggordijn"
+                                class="product-set-image" data-set-id="1">
+                        </div>
+                        <div>
+                            <img src="./Assets/parts/OMNIUS KUSSEN ACHTERKANT.webp" alt="Kussen Achterkant"
+                                class="product-set-image" data-set-id="7">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Options Column -->
+                <div class="options-column">
+
+                </div>
+                <div class="selection-column"></div>
+                <div id="haakband-options" class="option-panel" style="display: block;">
+                    <div class="fixed-selection">Vaste optie: 225 CM</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Container 3 - Price and Cart Section -->
+        <div class="container-footer">
+        </div>
+    </div>
+
+    <script type="module" src="curtain-configurator.js"></script>
+</body>
+
+</html>
